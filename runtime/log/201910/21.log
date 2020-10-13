@@ -1,0 +1,267 @@
+---------------------------------------------------------------
+[ 2019-10-21T15:52:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/
+[运行时间：0.480459s] [吞吐率：2.08req/s] [内存消耗：1,303.14kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-site' => 'none',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-21T16:22:28+08:00 ] 127.0.0.1 POST api.tp5.com/user/login
+[运行时间：0.180442s] [吞吐率：5.54req/s] [内存消耗：1,650.26kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '429465',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------710927119945771522700657',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'bc048dd0-1c9c-4a83-bb92-8f77957c4219',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+  'enctype' => 'multipart/form-data',
+)
+[ info ] [ PARAM ] array (
+  '/user/login' => '',
+  'user_name' => '2019223040006',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-21T16:23:04+08:00 ] 127.0.0.1 POST api.tp5.com/user/login?user_name=5555555&user_pwd=weqe
+[运行时间：0.022645s] [吞吐率：44.16req/s] [内存消耗：1,600.05kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------011549797230643088357914',
+  'host' => 'api.tp5.com',
+  'postman-token' => '2a0d8cdc-f525-47c2-a8f2-fbb0e215e98e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+  'enctype' => 'multipart/form-data',
+)
+[ info ] [ PARAM ] array (
+  '/user/login' => '',
+  'user_name' => '5555555',
+  'user_pwd' => 'weqe',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-21T16:23:27+08:00 ] 127.0.0.1 POST api.tp5.com/user/login?user_name=201722304006&user_pwd=weqe
+[运行时间：0.023461s] [吞吐率：42.62req/s] [内存消耗：1,600.09kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------903860927040687948355843',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'b9f4ddcf-428c-4ac5-a41f-eedb5a0c0231',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+  'enctype' => 'multipart/form-data',
+)
+[ info ] [ PARAM ] array (
+  '/user/login' => '',
+  'user_name' => '201722304006',
+  'user_pwd' => 'weqe',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-21T16:23:33+08:00 ] 127.0.0.1 POST api.tp5.com/user/login?user_name=2017223040006&user_pwd=weqe
+[运行时间：0.020994s] [吞吐率：47.63req/s] [内存消耗：1,600.10kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------820918296663831082137606',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'b7856191-47e3-411e-a8f4-2c9dde4912b8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+  'enctype' => 'multipart/form-data',
+)
+[ info ] [ PARAM ] array (
+  '/user/login' => '',
+  'user_name' => '2017223040006',
+  'user_pwd' => 'weqe',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-21T16:23:57+08:00 ] 127.0.0.1 POST api.tp5.com/user/login?user_name=2019223040006&user_pwd=zzz951374
+[运行时间：0.026104s] [吞吐率：38.31req/s] [内存消耗：1,600.13kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------926926042333072469400920',
+  'host' => 'api.tp5.com',
+  'postman-token' => '185bdeef-4aa3-41b4-95c8-c99f42590daf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+  'enctype' => 'multipart/form-data',
+)
+[ info ] [ PARAM ] array (
+  '/user/login' => '',
+  'user_name' => '2019223040006',
+  'user_pwd' => 'zzz951374',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-21T16:24:26+08:00 ] 127.0.0.1 POST api.tp5.com/user/login?user_name=2019223040006&user_pwd=e10adc3949ba59abbe56e057f20f883e
+[运行时间：0.031519s] [吞吐率：31.73req/s] [内存消耗：1,600.46kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------900216409008116017598384',
+  'host' => 'api.tp5.com',
+  'postman-token' => '6b5aab24-8c36-4e88-a8bf-b092dfa22b12',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+  'enctype' => 'multipart/form-data',
+)
+[ info ] [ PARAM ] array (
+  '/user/login' => '',
+  'user_name' => '2019223040006',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-21T16:24:39+08:00 ] 127.0.0.1 POST api.tp5.com/user/login?user_name=2019223040006&user_pwd=e10adc3949ba59abbe56e057f20f883e&lcode=12
+[运行时间：0.191142s] [吞吐率：5.23req/s] [内存消耗：2,489.49kb] [文件加载：45]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------611509502993939946056761',
+  'host' => 'api.tp5.com',
+  'postman-token' => '9b770b5f-888d-4059-949a-2eaa6120c60d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+  'enctype' => 'multipart/form-data',
+)
+[ info ] [ PARAM ] array (
+  '/user/login' => '',
+  'user_name' => '2019223040006',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'lcode' => '12',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012963s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.002883s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_name` = '2019223040006' LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `user_name`,`user_phone`,`user_email`,`user_rtime` FROM `think_user` WHERE  `user_name` = '2019223040006'  AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000415s ]

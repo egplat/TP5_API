@@ -1,0 +1,635 @@
+---------------------------------------------------------------
+[ 2019-10-16T19:11:25+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/17719496595/1
+[运行时间：0.710749s] [吞吐率：1.41req/s] [内存消耗：2,540.74kb] [文件加载：47]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'f3263b5c-a381-4211-b5e8-382b8147f7a6',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/17719496595/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => '17719496595',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017955s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.029296s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '17719496595' LIMIT 1 [ RunTime:0.003812s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '17719496595' LIMIT 1 [ RunTime:0.000879s ]
+---------------------------------------------------------------
+[ 2019-10-16T19:12:03+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/17719496595@163.com/1
+[运行时间：0.046422s] [吞吐率：21.54req/s] [内存消耗：2,473.20kb] [文件加载：45]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '9866808a-84f6-4499-a9ea-d44e96892510',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/17719496595@163_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => '17719496595@163.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001185s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '17719496595@163.com' LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '17719496595@163.com' LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2019-10-16T19:12:18+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/1
+[运行时间：0.034546s] [吞吐率：28.95req/s] [内存消耗：2,473.20kb] [文件加载：45]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'fe08877f-ff40-469d-af7b-3ee7b2095583',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => '2624213719@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2019-10-16T19:12:33+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.154098s] [吞吐率：6.49req/s] [内存消耗：2,589.23kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'a11e13bf-0f80-40b1-a538-c98e4610ad76',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000343s ]
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php:64]
+---------------------------------------------------------------
+[ 2019-10-16T19:14:14+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.055529s] [吞吐率：18.01req/s] [内存消耗：2,589.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '33f428e3-82b3-4e96-8604-1c72b849ace7',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001155s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000485s ]
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php:64]
+---------------------------------------------------------------
+[ 2019-10-16T19:14:35+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.046420s] [吞吐率：21.54req/s] [内存消耗：2,589.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '60c754af-264a-4af5-bd8f-9531d7af4008',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001119s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000336s ]
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php:64]
+---------------------------------------------------------------
+[ 2019-10-16T19:15:38+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.056612s] [吞吐率：17.66req/s] [内存消耗：2,589.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '87b81709-97d8-4c9b-b049-7408c1de32e8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001921s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001647s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000491s ]
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php:64]
+---------------------------------------------------------------
+[ 2019-10-16T19:17:49+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.052400s] [吞吐率：19.08req/s] [内存消耗：2,589.98kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'ceccaee1-64f1-4b83-9c42-60b3ef482d75',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001302s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000429s ]
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php:64]
+---------------------------------------------------------------
+[ 2019-10-16T19:23:08+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.043837s] [吞吐率：22.81req/s] [内存消耗：3,037.36kb] [文件加载：51]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '65919474-6389-4bb7-9d8c-ca58dc4577be',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001342s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001178s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000366s ]
+[ error ] [0]致命错误: Call to undefined method phpmailer\PHPMailer::ErrorInfo()[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php:79]
+---------------------------------------------------------------
+[ 2019-10-16T19:23:40+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.047081s] [吞吐率：21.24req/s] [内存消耗：2,970.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '89b8889a-3c7b-4bfb-b35b-093319310cd1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001270s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-10-16T19:24:21+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.041540s] [吞吐率：24.07req/s] [内存消耗：2,970.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '2cf40be7-defd-494e-9802-058d4031d797',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001441s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2019-10-16T19:25:22+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：0.048509s] [吞吐率：20.61req/s] [内存消耗：2,970.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '45d74b49-a377-4c6f-abb7-cbfeb4462bf8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001171s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001087s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2019-10-16T19:25:55+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/zhouyongtaogin@gmail.com/1
+[运行时间：9.437662s] [吞吐率：0.11req/s] [内存消耗：3,091.16kb] [文件加载：48]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'b0cab018-b551-4085-888a-05e1824cf88f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/zhouyongtaogin@gmail_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => 'zhouyongtaogin@gmail.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001198s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = 'zhouyongtaogin@gmail.com' LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2019-10-16T19:28:32+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/1
+[运行时间：0.790328s] [吞吐率：1.27req/s] [内存消耗：3,091.57kb] [文件加载：48]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i0inveccho1esfftsnpo7p3vdr',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '8a2468a6-cb21-45ff-813c-acf2290a77aa',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => '2624213719@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001380s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000531s ]

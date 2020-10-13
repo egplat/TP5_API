@@ -1,0 +1,3610 @@
+---------------------------------------------------------------
+[ 2019-10-14T12:56:45+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api
+[运行时间：0.043154s] [吞吐率：23.17req/s] [内存消耗：1,296.32kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T12:56:54+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user
+[运行时间：0.106852s] [吞吐率：9.36req/s] [内存消耗：1,337.42kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2019-10-14T12:56:59+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api
+[运行时间：0.025490s] [吞吐率：39.23req/s] [内存消耗：1,296.29kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T12:57:08+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.023401s] [吞吐率：42.73req/s] [内存消耗：1,296.55kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T12:59:17+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.022530s] [吞吐率：44.39req/s] [内存消耗：1,296.58kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:01:49+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.025855s] [吞吐率：38.68req/s] [内存消耗：1,296.58kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:01:57+08:00 ] 127.0.0.1 GET www.tp5.com/index.php
+[运行时间：0.021014s] [吞吐率：47.59req/s] [内存消耗：1,296.59kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:02:00+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api
+[运行时间：0.025040s] [吞吐率：39.94req/s] [内存消耗：1,296.32kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:04:49+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.018688s] [吞吐率：53.51req/s] [内存消耗：1,295.85kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '7231dcbd-32be-4a89-aef6-689cad46e8c3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:07:20+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.023916s] [吞吐率：41.81req/s] [内存消耗：1,295.89kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '84384cae-d7cd-4958-96f5-a7217d4190cb',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:09:50+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.023067s] [吞吐率：43.35req/s] [内存消耗：1,298.16kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:09:54+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.023349s] [吞吐率：42.83req/s] [内存消耗：1,298.14kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:10:24+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user
+[运行时间：0.030004s] [吞吐率：33.33req/s] [内存消耗：1,337.24kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'a3fbb8cb-df8c-4b4d-8c10-d405b5748e39',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2019-10-14T13:10:33+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/index/id/2
+[运行时间：0.018388s] [吞吐率：54.38req/s] [内存消耗：1,295.97kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'bb3f2fb2-4f71-4cf1-b8b4-b444dfe10848',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:10:40+08:00 ] 127.0.0.1 GET api.tp5.com/index.php/api/user/index/id/2
+[运行时间：0.025493s] [吞吐率：39.23req/s] [内存消耗：1,341.90kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'api',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'edc34897-0206-4fea-add7-04d19d8a11d0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'id',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:13:23+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.028282s] [吞吐率：35.36req/s] [内存消耗：1,341.27kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '8a17cec7-bce2-4cb0-83c0-976a98ccae72',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:13:52+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.018819s] [吞吐率：53.14req/s] [内存消耗：1,341.27kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '2241f65a-dd1b-4fe2-9585-0904342ed540',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:13:57+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.031027s] [吞吐率：32.23req/s] [内存消耗：1,341.27kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '58f9de21-ec50-4686-9bbd-4ef4bacd1c87',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:14:39+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.017856s] [吞吐率：56.00req/s] [内存消耗：1,341.27kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '114124b5-80ec-4ee1-80da-272c132fc99e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:15:32+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.019483s] [吞吐率：51.33req/s] [内存消耗：1,295.85kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'e8991d76-82fa-45c3-a423-5803aadeac54',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:15:45+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.016983s] [吞吐率：58.88req/s] [内存消耗：1,295.85kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '3154ffe3-c36a-42ea-93ff-e402b11e3d38',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:15:46+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.019429s] [吞吐率：51.47req/s] [内存消耗：1,295.85kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '0a209e50-3296-4e69-b41d-77d79448f2dd',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:15:47+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.020011s] [吞吐率：49.97req/s] [内存消耗：1,295.85kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'deb97f38-a969-4481-a281-462687906101',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:16:10+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.021257s] [吞吐率：47.04req/s] [内存消耗：1,295.85kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '7bde48d3-e1b0-41d8-af62-5c268e0e5110',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:17:04+08:00 ] 127.0.0.1 GET api.tp5.com/index.php
+[运行时间：0.022093s] [吞吐率：45.26req/s] [内存消耗：1,295.87kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'd08ac7e4-8bbd-41c4-ad63-8c0f73f885ec',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:18:04+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.026715s] [吞吐率：37.43req/s] [内存消耗：1,295.85kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '0d3f90da-c04a-4ddd-9ab9-040d9fa477d9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:18:55+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api
+[运行时间：0.031299s] [吞吐率：31.95req/s] [内存消耗：1,295.61kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'a65fea02-5595-4aeb-8c0c-146c5e1c2bec',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:18:59+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user
+[运行时间：0.021741s] [吞吐率：46.00req/s] [内存消耗：1,337.24kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'cd0e5d08-82e7-4a8b-99a9-5e359a71b7b1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2019-10-14T13:19:09+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/id/2
+[运行时间：0.022144s] [吞吐率：45.16req/s] [内存消耗：1,339.53kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '91db13df-50b5-4461-aa97-ca2516243c4f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:19:19+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/index/id/2
+[运行时间：0.017933s] [吞吐率：55.76req/s] [内存消耗：1,295.97kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '20607730-57fd-45b2-a14d-1a4789a3547b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:20:46+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/2
+[运行时间：0.026882s] [吞吐率：37.20req/s] [内存消耗：1,339.47kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'adcd54be-370f-4325-85f6-ea9fb3cf866c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:21:06+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/2
+[运行时间：0.027405s] [吞吐率：36.49req/s] [内存消耗：1,338.30kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'c902c664-cf7c-4c18-8503-64adb45e864c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:21:44+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/2
+[运行时间：0.021198s] [吞吐率：47.17req/s] [内存消耗：1,338.30kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '083277ed-a370-4892-8461-8df5dd92efa2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:23:37+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/user/2
+[运行时间：0.024675s] [吞吐率：40.53req/s] [内存消耗：1,295.95kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '3bc4831d-88c7-402e-b6b6-18ae4bb336c1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:24:18+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.016360s] [吞吐率：61.12req/s] [内存消耗：1,295.89kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '96d06bd2-a5ca-409e-a00b-9f9f9456e511',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:24:57+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.024296s] [吞吐率：41.16req/s] [内存消耗：1,295.89kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '5bd9dce1-2a2a-4b92-b51e-94551f1fb3c8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:27:34+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.024268s] [吞吐率：41.21req/s] [内存消耗：1,295.89kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '1480cbff-a32f-4e4a-99de-6c370c3c41ba',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:29:52+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.030996s] [吞吐率：32.26req/s] [内存消耗：1,297.68kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:30:08+08:00 ] 127.0.0.1 GET api.tp5.com/Index.php
+[运行时间：0.021879s] [吞吐率：45.71req/s] [内存消耗：1,297.70kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:36:17+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.029305s] [吞吐率：34.12req/s] [内存消耗：1,295.24kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '8c46bd9d-04f3-43e8-8987-6b6d691aad5d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:37:47+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/id/2
+[运行时间：0.024717s] [吞吐率：40.46req/s] [内存消耗：1,338.44kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'd6fedce5-01f7-4b19-b33f-ec8ace5f5faf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:38:11+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/id/2
+[运行时间：0.026812s] [吞吐率：37.30req/s] [内存消耗：1,336.79kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '54e2defd-04c1-4fd4-9cf9-1173d59d51a9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:38:21+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/index/id/2
+[运行时间：0.022636s] [吞吐率：44.18req/s] [内存消耗：1,293.23kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'a0f39e9a-b937-421e-b838-43762772b713',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:39:47+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/user/2
+[运行时间：0.034703s] [吞吐率：28.82req/s] [内存消耗：1,326.14kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'Route' not found[D:\A_Software_Web\phpstudy\WWW\tp5\application\route.php:15]
+---------------------------------------------------------------
+[ 2019-10-14T13:40:11+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/user/2
+[运行时间：0.025062s] [吞吐率：39.90req/s] [内存消耗：1,295.95kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '11d54d3c-bc12-4f21-84e2-714a6920aa3a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:40:31+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.032892s] [吞吐率：30.40req/s] [内存消耗：1,295.89kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '01fae28a-29ba-4ce9-a01b-d018a52c15bf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T13:41:15+08:00 ] 127.0.0.1 GET api.tp5.com/index.php/user/2
+[运行时间：0.018960s] [吞吐率：52.74req/s] [内存消耗：1,297.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c5e2cab6-e670-4495-a8c0-c0ec78e82dbc',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:10:04+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.022940s] [吞吐率：43.59req/s] [内存消耗：1,299.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'af33c034-2d4e-4df1-8c32-ecd8c913a3d5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:19:07+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.027711s] [吞吐率：36.09req/s] [内存消耗：1,299.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '5c8463fe-514a-42aa-969e-85aa05a4181e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:19:13+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.019766s] [吞吐率：50.59req/s] [内存消耗：1,299.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '7ae74ff1-8473-4219-b51c-ee0f04d47de9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:19:18+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.017296s] [吞吐率：57.82req/s] [内存消耗：1,299.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '7b6c49e7-63f3-4acd-8ba8-ad5f84074b58',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:20:18+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.026273s] [吞吐率：38.06req/s] [内存消耗：1,299.45kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '128572d2-ddc3-477c-87e2-7b2ff5864213',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:20:55+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.025246s] [吞吐率：39.61req/s] [内存消耗：1,331.90kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function bind()[D:\A_Software_Web\phpstudy\WWW\tp5\application\route.php:16]
+---------------------------------------------------------------
+[ 2019-10-14T16:21:09+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.021854s] [吞吐率：45.76req/s] [内存消耗：1,301.36kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:21:20+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.024673s] [吞吐率：40.53req/s] [内存消耗：1,300.84kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:21:34+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.022462s] [吞吐率：44.52req/s] [内存消耗：1,299.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '77bdcce5-c850-440a-a852-cea024e9a109',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:21:53+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.017366s] [吞吐率：57.58req/s] [内存消耗：1,299.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '66248597-4bec-4161-bf8e-fd92294a873f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:22:17+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.019823s] [吞吐率：50.45req/s] [内存消耗：1,344.53kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'b1f0404e-6bfc-4f54-bcee-6cb9c95af10b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:25:45+08:00 ] 127.0.0.1 GET www.tp5.com/user/2
+[运行时间：0.025353s] [吞吐率：39.44req/s] [内存消耗：1,346.08kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'c371f877-3d74-4bb3-b508-289e91af7f99',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/2' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:27:38+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/index/id/2
+[运行时间：0.019839s] [吞吐率：50.41req/s] [内存消耗：1,345.07kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'api',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'ccdac406-5e1e-433a-b6a6-b07d2ee595ef',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'id',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:28:00+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.024244s] [吞吐率：41.25req/s] [内存消耗：1,346.04kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'f12cef87-aac9-44e9-afce-85235e59ec70',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Undefined constant 'app\api\controller\api\index'[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php:6]
+---------------------------------------------------------------
+[ 2019-10-14T16:28:14+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.028325s] [吞吐率：35.30req/s] [内存消耗：1,299.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '73b25cd4-b492-4464-8142-443731f0b4af',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:28:22+08:00 ] 127.0.0.1 GET www.tp5.com/user
+[运行时间：0.018844s] [吞吐率：53.07req/s] [内存消耗：1,343.85kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '11b87c58-0aff-4ddf-8231-238341601cef',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2019-10-14T16:28:27+08:00 ] 127.0.0.1 GET www.tp5.com/user/id/2
+[运行时间：0.032063s] [吞吐率：31.19req/s] [内存消耗：1,346.16kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'dad7a988-a714-4ff5-9e43-195cc7ae2111',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/id/2' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:28:32+08:00 ] 127.0.0.1 GET www.tp5.com/user/index/id/2
+[运行时间：0.019525s] [吞吐率：51.22req/s] [内存消耗：1,341.50kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:29:19+08:00 ] 127.0.0.1 GET www.tp5.com/user/2
+[运行时间：0.027356s] [吞吐率：36.56req/s] [内存消耗：1,346.08kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'd4673145-532a-42da-8994-e2ea970a18dd',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/2' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:29:24+08:00 ] 127.0.0.1 GET www.tp5.com/user/index/2
+[运行时间：0.018901s] [吞吐率：52.91req/s] [内存消耗：1,341.38kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:29:29+08:00 ] 127.0.0.1 GET www.tp5.com/user/2
+[运行时间：0.049479s] [吞吐率：20.21req/s] [内存消耗：1,346.08kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'b6a586ff-93f7-4431-a531-758b12dfa32d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/2' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:30:11+08:00 ] 127.0.0.1 GET api.tp5.com/user/2
+[运行时间：0.023513s] [吞吐率：42.53req/s] [内存消耗：1,303.77kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c733832d-f83b-4ef3-a2fa-0b7675d80d59',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/2' => '',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:30:38+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.020522s] [吞吐率：48.73req/s] [内存消耗：1,299.05kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '34f38987-109c-47a9-bb83-98e880a6e6c2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:30:47+08:00 ] 127.0.0.1 GET www.tp5.com/index.php
+[运行时间：0.027052s] [吞吐率：36.97req/s] [内存消耗：1,299.07kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'b2c8c828-62eb-4739-bf21-6c34f2660363',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:30:59+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/index/index
+[运行时间：0.026173s] [吞吐率：38.21req/s] [内存消耗：1,344.95kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'api',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'c598670b-d9a5-4e09-919a-469389967b11',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:31:38+08:00 ] 127.0.0.1 GET www.tp5.com/index.php/api/user/index
+[运行时间：0.018643s] [吞吐率：53.64req/s] [内存消耗：1,344.93kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'api',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => 'c4a1eaf2-d9b0-49ae-a9e0-574f55f8da60',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:32:22+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.027861s] [吞吐率：35.89req/s] [内存消耗：1,296.41kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.tp5.com',
+  'postman-token' => '6d4feba2-573a-4c59-9ce0-72e7393d85e9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:32:31+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.018003s] [吞吐率：55.55req/s] [内存消耗：1,295.89kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'ad7e14b4-f787-48ce-9a5d-d5f1a289bad5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:32:46+08:00 ] 127.0.0.1 GET api.tp5.com/user
+[运行时间：0.021550s] [吞吐率：46.40req/s] [内存消耗：1,340.69kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '99684bde-0da2-4b1a-a2cf-333a5683f799',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2019-10-14T16:32:51+08:00 ] 127.0.0.1 GET api.tp5.com/user/2
+[运行时间：0.017661s] [吞吐率：56.62req/s] [内存消耗：1,300.61kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '1746458d-083e-477c-9630-2eae0594ccce',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/2' => '',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:32:53+08:00 ] 127.0.0.1 GET api.tp5.com/user/2
+[运行时间：0.027939s] [吞吐率：35.79req/s] [内存消耗：1,300.61kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '4d039a2b-cb59-41ac-9fba-0d2f3524f821',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/2' => '',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:32:56+08:00 ] 127.0.0.1 GET api.tp5.com/user/d
+[运行时间：0.018235s] [吞吐率：54.84req/s] [内存消耗：1,300.61kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '67874c1e-472b-4b1e-a235-74cbe6e136b4',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/d' => '',
+  'id' => 'd',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:42:02+08:00 ] 127.0.0.1 GET www.tp5.com/
+[运行时间：0.022233s] [吞吐率：44.98req/s] [内存消耗：1,298.71kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:42:08+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.151772s] [吞吐率：6.59req/s] [内存消耗：1,738.42kb] [文件加载：42]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\A_Software_Web\phpstudy\WWW\tp5\public/../application/api\view\index\index.html[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-10-14T16:46:12+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.034916s] [吞吐率：28.64req/s] [内存消耗：1,735.91kb] [文件加载：41]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： object[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-10-14T16:56:14+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.029446s] [吞吐率：33.96req/s] [内存消耗：1,344.04kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php:7]
+---------------------------------------------------------------
+[ 2019-10-14T16:56:28+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.021596s] [吞吐率：46.30req/s] [内存消耗：1,298.19kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T16:56:37+08:00 ] 127.0.0.1 GET api.tp5.com/user/d
+[运行时间：0.023570s] [吞吐率：42.43req/s] [内存消耗：1,300.61kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '5f5f08b6-8d8a-4f87-a33b-9af398240536',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/d' => '',
+  'id' => 'd',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:16:10+08:00 ] 127.0.0.1 GET api.tp5.com/
+[运行时间：0.025661s] [吞吐率：38.97req/s] [内存消耗：1,298.30kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5451555840; pgv_si=s2824435712',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'api.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:29:26+08:00 ] 127.0.0.1 POST api.tp5.com/?time=123
+[运行时间：0.037987s] [吞吐率：26.32req/s] [内存消耗：1,346.12kb] [文件加载：37]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c50e4472-25e3-4499-b6f5-570bc6e7c427',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Use of undefined constant show1 - assumed 'show1' (this will throw an Error in a future version of PHP)[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2019-10-14T17:29:40+08:00 ] 127.0.0.1 POST api.tp5.com/
+[运行时间：0.022782s] [吞吐率：43.89req/s] [内存消耗：1,345.58kb] [文件加载：37]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '4a8cf0ad-d293-497b-a0c4-6f6af954b06e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Use of undefined constant show1 - assumed 'show1' (this will throw an Error in a future version of PHP)[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2019-10-14T17:30:02+08:00 ] 127.0.0.1 POST api.tp5.com/
+[运行时间：0.030567s] [吞吐率：32.72req/s] [内存消耗：1,345.21kb] [文件加载：37]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'bd35cc96-f4de-4305-9275-397150204e93',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2019-10-14T17:30:22+08:00 ] 127.0.0.1 POST api.tp5.com/
+[运行时间：0.026058s] [吞吐率：38.38req/s] [内存消耗：1,338.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'bc13b205-3002-426e-b06e-d5a1211e9277',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-10-14T17:30:48+08:00 ] 127.0.0.1 POST api.tp5.com/
+[运行时间：0.027258s] [吞吐率：36.69req/s] [内存消耗：1,296.58kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '8e60fb8e-05eb-4f1c-ac0b-c3ede7d5465d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:30:55+08:00 ] 127.0.0.1 POST api.tp5.com/?time=123
+[运行时间：0.028819s] [吞吐率：34.70req/s] [内存消耗：1,297.12kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '6d8a4000-fbf3-4722-a7de-377187cf8ae0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:31:32+08:00 ] 127.0.0.1 POST api.tp5.com/?time=123
+[运行时间：0.024875s] [吞吐率：40.20req/s] [内存消耗：1,341.74kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '754c6abc-16cb-4470-8cd4-7b4faf34f3d4',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '123',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2019-10-14T17:31:42+08:00 ] 127.0.0.1 POST api.tp5.com/?time=123
+[运行时间：0.027176s] [吞吐率：36.80req/s] [内存消耗：1,296.59kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '8bac981a-c3d8-4836-9eff-910b199da560',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:32:14+08:00 ] 127.0.0.1 POST api.tp5.com/?time=123&d=213
+[运行时间：0.017592s] [吞吐率：56.84req/s] [内存消耗：1,296.64kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '4b3a0065-b496-4ae7-9f2f-402644804903',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '123',
+  'd' => '213',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:33:16+08:00 ] 127.0.0.1 POST api.tp5.com/?time=123&d=213
+[运行时间：0.022011s] [吞吐率：45.43req/s] [内存消耗：1,296.64kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'b907878e-e299-441e-a28c-9d5a35c57905',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '123',
+  'd' => '213',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:33:44+08:00 ] 127.0.0.1 POST api.tp5.com/?time=123&d=213
+[运行时间：0.024182s] [吞吐率：41.35req/s] [内存消耗：1,297.16kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '517dbf5d-c0f1-4102-9d00-91e589036d5a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '123',
+  'd' => '213',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:47:59+08:00 ] 127.0.0.1 POST api.tp5.com/?time=123&d=213
+[运行时间：0.018785s] [吞吐率：53.23req/s] [内存消耗：1,297.16kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'ea1ad56e-2aab-4959-8cde-026d015361cf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '123',
+  'd' => '213',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:48:30+08:00 ] 127.0.0.1 POST api.tp5.com/user?=
+[运行时间：0.025335s] [吞吐率：39.47req/s] [内存消耗：1,345.73kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'a9b55d64-640d-4536-a614-eb25768fb7c5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'use' (T_USE), expecting '{'[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:3]
+---------------------------------------------------------------
+[ 2019-10-14T17:48:52+08:00 ] 127.0.0.1 POST api.tp5.com/user?=
+[运行时间：0.029953s] [吞吐率：33.39req/s] [内存消耗：1,345.82kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'ebb34d85-9f7d-4517-9c0b-115beb0c44c5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'pubic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:26]
+---------------------------------------------------------------
+[ 2019-10-14T17:49:02+08:00 ] 127.0.0.1 POST api.tp5.com/user?=
+[运行时间：0.033451s] [吞吐率：29.89req/s] [内存消耗：1,552.76kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '65a22620-3b98-4d4f-89aa-0fdbdf32a473',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:50:01+08:00 ] 127.0.0.1 POST api.tp5.com/user?time=wqeq
+[运行时间：0.025237s] [吞吐率：39.62req/s] [内存消耗：1,553.22kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '47706272-5f01-4270-a4df-ecba419469ba',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'time' => 'wqeq',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:50:09+08:00 ] 127.0.0.1 POST api.tp5.com/user?time=231
+[运行时间：0.028732s] [吞吐率：34.80req/s] [内存消耗：1,553.20kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '5b50fe09-122c-490f-b06f-681854e5d264',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'time' => '231',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:50:38+08:00 ] 127.0.0.1 POST api.tp5.com/user?time=1571046632
+[运行时间：0.023729s] [吞吐率：42.14req/s] [内存消耗：1,747.36kb] [文件加载：43]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '32c8e592-34e0-4a26-985d-db14a3bb1826',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'time' => '1571046632',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\api\controller\User::check_token()[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:12]
+---------------------------------------------------------------
+[ 2019-10-14T17:55:35+08:00 ] 127.0.0.1 POST api.tp5.com/user?time=1571046632
+[运行时间：0.034389s] [吞吐率：29.08req/s] [内存消耗：1,553.30kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '0b44549b-851a-45ae-b74c-c842e228a516',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'time' => '1571046632',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:55:50+08:00 ] 127.0.0.1 POST api.tp5.com/user?time=1571046632
+[运行时间：0.020165s] [吞吐率：49.59req/s] [内存消耗：1,553.30kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '2f07fee0-4546-4d7c-9442-dfa216eb23ec',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'time' => '1571046632',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:56:14+08:00 ] 127.0.0.1 POST api.tp5.com/user?time=1571046632
+[运行时间：0.023022s] [吞吐率：43.44req/s] [内存消耗：1,553.30kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '37e810ce-d014-4db9-b9af-7b9515912e4d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'time' => '1571046632',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T17:56:31+08:00 ] 127.0.0.1 POST api.tp5.com/user?time=1571046985
+[运行时间：0.025899s] [吞吐率：38.61req/s] [内存消耗：1,742.38kb] [文件加载：42]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '6b5fc1d2-b0a2-48d1-ab1d-726fa4cc3a7b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'time' => '1571046985',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2019-10-14T17:56:45+08:00 ] 127.0.0.1 POST api.tp5.com/user?time=1571046985
+[运行时间：0.028925s] [吞吐率：34.57req/s] [内存消耗：1,620.83kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'b8cd8f9f-8d9c-4a11-bb3a-b6f65a075ecf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'time' => '1571046985',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:09:04+08:00 ] 127.0.0.1 POST api.tp5.com/user
+[运行时间：0.028490s] [吞吐率：35.10req/s] [内存消耗：1,345.70kb] [文件加载：36]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'aa4e3991-1ca3-4c71-878e-0756dc0ed7f3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:37]
+---------------------------------------------------------------
+[ 2019-10-14T18:09:30+08:00 ] 127.0.0.1 POST api.tp5.com/user
+[运行时间：0.025904s] [吞吐率：38.60req/s] [内存消耗：1,554.55kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '4fd32e46-7a8c-4d8d-8a64-b2a4648e290f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:12:31+08:00 ] 127.0.0.1 POST api.tp5.com/
+[运行时间：0.023947s] [吞吐率：41.76req/s] [内存消耗：1,346.08kb] [文件加载：37]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'a40231b7-550c-48ca-98a4-62ba6c7895bb',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Use of undefined constant api - assumed 'api' (this will throw an Error in a future version of PHP)[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2019-10-14T18:12:57+08:00 ] 127.0.0.1 POST api.tp5.com/
+[运行时间：0.025465s] [吞吐率：39.27req/s] [内存消耗：1,345.76kb] [文件加载：37]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '118a11bd-c59a-426b-8f52-ea4596bbf657',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP)[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2019-10-14T18:13:06+08:00 ] 127.0.0.1 POST api.tp5.com/
+[运行时间：0.030148s] [吞吐率：33.17req/s] [内存消耗：1,296.41kb] [文件加载：33]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'bb644435-5798-4905-8b30-9d9fc39eeac8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:13:15+08:00 ] 127.0.0.1 POST api.tp5.com/user
+[运行时间：0.026372s] [吞吐率：37.92req/s] [内存消耗：1,554.55kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '115eb465-717f-497c-a474-50816f067a6b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:13:34+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=ae20d2ed22f22d25e51f5d48e6367cae
+[运行时间：0.026342s] [吞吐率：37.96req/s] [内存消耗：1,749.14kb] [文件加载：43]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '1fc9caa2-24ca-4682-80f8-30efe9a05a0d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => 'ae20d2ed22f22d25e51f5d48e6367cae',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function app\api\controller\ma5()[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:43]
+---------------------------------------------------------------
+[ 2019-10-14T18:13:52+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=ae20d2ed22f22d25e51f5d48e6367cae
+[运行时间：0.028275s] [吞吐率：35.37req/s] [内存消耗：1,555.10kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '14fe3e25-2666-451e-9255-5c3827c65d48',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => 'ae20d2ed22f22d25e51f5d48e6367cae',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:14:05+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=ae20d2ed22f22d25e51f5d48e6367cae
+[运行时间：0.023941s] [吞吐率：41.77req/s] [内存消耗：1,555.10kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c6e2463d-ea1c-47a1-9f0b-9006d2796104',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => 'ae20d2ed22f22d25e51f5d48e6367cae',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:16:19+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=ae20d2ed22f22d25e51f5d48e6367cae
+[运行时间：0.029530s] [吞吐率：33.86req/s] [内存消耗：1,555.35kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '6798de49-5062-44da-a0cd-b2f0111c6cb9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => 'ae20d2ed22f22d25e51f5d48e6367cae',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:16:30+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=42fde2801d3d7a72671fa8121c087388
+[运行时间：0.027848s] [吞吐率：35.91req/s] [内存消耗：1,622.81kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '8829a76d-4acf-49ff-a945-8bdbe8811808',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:16:41+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=42fde2801d3d7a72671fa8121c087388
+[运行时间：0.027667s] [吞吐率：36.14req/s] [内存消耗：1,622.56kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '46ddfd05-0b89-423e-8763-1d33405c62f6',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:18:05+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=42fde2801d3d7a72671fa8121c087388
+[运行时间：0.025427s] [吞吐率：39.33req/s] [内存消耗：1,622.56kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '9628df7a-e29f-4d09-9c5c-ccb4f60b2ed6',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:18:07+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=42fde2801d3d7a72671fa8121c087388
+[运行时间：0.034580s] [吞吐率：28.92req/s] [内存消耗：1,622.56kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '975d160b-cd7c-4468-bed7-58f6a2b9f5b0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:18:09+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=42fde2801d3d7a72671fa8121c08738
+[运行时间：0.028633s] [吞吐率：34.92req/s] [内存消耗：1,555.10kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'bd37ab72-557e-4dde-82bf-97215211a9f7',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => '42fde2801d3d7a72671fa8121c08738',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:18:14+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123456&token=42fde2801d3d7a72671fa8121c087388
+[运行时间：0.028097s] [吞吐率：35.59req/s] [内存消耗：1,622.56kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c9446e6a-303f-4a8d-b46c-787bd6fa5a0d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123456',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:18:19+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123457&token=42fde2801d3d7a72671fa8121c087388
+[运行时间：0.019528s] [吞吐率：51.21req/s] [内存消耗：1,555.10kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '7decb1f5-24a4-4da1-a143-af77ec7470dd',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123457',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:20:38+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123457&token=42fde2801d3d7a72671fa8121c087388
+[运行时间：0.051271s] [吞吐率：19.50req/s] [内存消耗：1,579.78kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '8c460e5b-f5e3-461f-a2b8-73ac14de49a2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123457',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:22:42+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123457&token=42fde2801d3d7a72671fa8121c087388
+[运行时间：0.027708s] [吞吐率：36.09req/s] [内存消耗：1,555.10kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '249ed48a-e2d4-4855-a1e5-91bd602d61a2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123457',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:31:01+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123457&token=42fde2801d3d7a72671fa8121c087388&time=1571049046
+[运行时间：0.032380s] [吞吐率：30.88req/s] [内存消耗：1,581.27kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '3ba6a8d7-3ece-4a61-88c6-2460f586a162',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123457',
+  'token' => '42fde2801d3d7a72671fa8121c087388',
+  'time' => '1571049046',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:31:12+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123457&token=5f9e6456625e251ffcb3cb607c4d2438&time=1571049046
+[运行时间：0.027378s] [吞吐率：36.53req/s] [内存消耗：1,581.27kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '9427a5fa-c8ec-46ef-8102-27f72a5d20c0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123457',
+  'token' => '5f9e6456625e251ffcb3cb607c4d2438',
+  'time' => '1571049046',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-14T18:31:20+08:00 ] 127.0.0.1 POST api.tp5.com/user?name=zyt&pwd=123457&token=5f9e6456625e251ffcb3cb607c4d2438&time=1571049046
+[运行时间：0.027123s] [吞吐率：36.87req/s] [内存消耗：1,624.03kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '34e958e4-804d-4085-8b7e-8ff858372b08',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+  'name' => 'zyt',
+  'pwd' => '123457',
+  'token' => '5f9e6456625e251ffcb3cb607c4d2438',
+  'time' => '1571049046',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2556 @@
+---------------------------------------------------------------
+[ 2019-10-17T19:12:04+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/1
+[运行时间：4.971869s] [吞吐率：0.20req/s] [内存消耗：3,095.77kb] [文件加载：48]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '1cc030ff-6531-4052-ae6f-efd3e6e974b6',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_name' => '2624213719@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019741s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.036554s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.004556s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2019-10-17T19:17:52+08:00 ] 127.0.0.1 GET api.tp5.com/user/register
+[运行时间：0.154131s] [吞吐率：6.49req/s] [内存消耗：1,341.00kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T19:18:32+08:00 ] 127.0.0.1 GET api.tp5.com/user/register
+[运行时间：0.028928s] [吞吐率：34.57req/s] [内存消耗：1,341.04kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T19:18:37+08:00 ] 127.0.0.1 GET api.tp5.com/user
+[运行时间：0.079195s] [吞吐率：12.63req/s] [内存消耗：1,768.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'bbe09819-d467-47d8-969d-ce252c21d993',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: index[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:84]
+---------------------------------------------------------------
+[ 2019-10-17T19:19:12+08:00 ] 127.0.0.1 GET api.tp5.com/user/lodin
+[运行时间：0.029913s] [吞吐率：33.43req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'lodin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '801b903d-4f70-478a-b5b9-cd1d1c6fbcd1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/lodin' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: lodin[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:84]
+---------------------------------------------------------------
+[ 2019-10-17T19:19:15+08:00 ] 127.0.0.1 GET api.tp5.com/user/login
+[运行时间：0.025000s] [吞吐率：40.00req/s] [内存消耗：1,341.04kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T19:19:37+08:00 ] 127.0.0.1 GET api.tp5.com/user
+[运行时间：0.030631s] [吞吐率：32.65req/s] [内存消耗：1,768.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '5bb72b6d-219d-45cf-9c0c-29565875a65c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: index[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:84]
+---------------------------------------------------------------
+[ 2019-10-17T19:20:53+08:00 ] 127.0.0.1 POST api.tp5.com/user
+[运行时间：0.023118s] [吞吐率：43.26req/s] [内存消耗：1,574.16kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c749e271-5071-4fa9-8c73-20e2fb7d360b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T19:21:02+08:00 ] 127.0.0.1 POST api.tp5.com/user/register
+[运行时间：0.028111s] [吞吐率：35.57req/s] [内存消耗：1,769.04kb] [文件加载：44]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '970e2ca4-95d2-4e4d-87a5-30f2a917f7c3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: register[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:84]
+---------------------------------------------------------------
+[ 2019-10-17T19:22:13+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/
+[运行时间：0.023573s] [吞吐率：42.42req/s] [内存消耗：1,575.75kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'dbfbc500-d905-436f-8956-452fe0691a33',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T19:23:33+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_name=2019223040006&user_pwd=11111111111111111111111111111111
+[运行时间：0.029484s] [吞吐率：33.92req/s] [内存消耗：1,667.43kb] [文件加载：41]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '411c3a22-db34-4efa-b0f5-cd39ea60139c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_name' => '2019223040006',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T19:25:10+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_name=2019223040006&user_pwd=11111111111111111111111111111111
+[运行时间：0.030677s] [吞吐率：32.60req/s] [内存消耗：1,577.05kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '947b5f4d-1c80-4174-8062-e2ac2b70c466',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_name' => '2019223040006',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T19:25:19+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_name=2019223040006&user_pwd=11111111111111111111111111111111&code=111111
+[运行时间：0.027901s] [吞吐率：35.84req/s] [内存消耗：1,668.08kb] [文件加载：41]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '4bcefe34-9aab-435d-bf77-d69212e8008b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_name' => '2019223040006',
+  'user_pwd' => '11111111111111111111111111111111',
+  'code' => '111111',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T19:59:03+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/1
+[运行时间：0.024800s] [吞吐率：40.32req/s] [内存消耗：1,594.49kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '57f4b0dc-57ac-4348-b341-1e35e4211acf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_contact' => '2624213719@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:00:08+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/1
+[运行时间：11.078380s] [吞吐率：0.09req/s] [内存消耗：3,102.46kb] [文件加载：49]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '6cbf527b-14ae-46da-853c-dcbfec282e0e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_contact' => '2624213719@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001648s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001367s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2019-10-17T20:01:45+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/1
+[运行时间：12.050352s] [吞吐率：0.08req/s] [内存消耗：3,102.45kb] [文件加载：49]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '1caaacb2-a8ee-4b37-a2d7-2e4dbb1b41d9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_contact' => '2624213719@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001211s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2019-10-17T20:13:53+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=17719496595&user_pwd=11111111111111111111111111111111&code=111111
+[运行时间：0.046639s] [吞吐率：21.44req/s] [内存消耗：1,772.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '0fd14800-5370-429c-bcdd-ab218a901a53',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '17719496595',
+  'user_pwd' => '11111111111111111111111111111111',
+  'code' => '111111',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\api\controller\User::checkCode()[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php:21]
+---------------------------------------------------------------
+[ 2019-10-17T20:36:16+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=17719496595&user_pwd=11111111111111111111111111111111&code=111111&user_name=2019223040006
+[运行时间：0.028694s] [吞吐率：34.85req/s] [内存消耗：1,629.28kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '40113c33-e66a-4ca0-bbae-5b54b68a7b7b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '17719496595',
+  'user_pwd' => '11111111111111111111111111111111',
+  'code' => '111111',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:39:51+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/0
+[运行时间：1.211275s] [吞吐率：0.83req/s] [内存消耗：3,100.68kb] [文件加载：48]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '447280d0-975e-471c-b7da-34d47821fba1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/0' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_contact' => '2624213719@qq.com',
+  'is_exist' => '0',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001452s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2019-10-17T20:41:28+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.025144s] [吞吐率：39.77req/s] [内存消耗：1,629.18kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '4037adaa-bf4c-4d07-acf4-761def362231',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:43:21+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.038831s] [吞吐率：25.75req/s] [内存消耗：1,629.18kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '05c4d95d-8cbb-42d6-9b37-74c370a0df27',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:43:47+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.028867s] [吞吐率：34.64req/s] [内存消耗：1,653.93kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '02a9e880-c3d4-43dd-968b-e900e0e547e9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:44:51+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.025765s] [吞吐率：38.81req/s] [内存消耗：1,654.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c3dd7762-ac3a-4ed4-91ef-0f060d0c6f49',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:46:36+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.032325s] [吞吐率：30.94req/s] [内存消耗：1,654.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c1cdb038-612f-4d1f-97af-b92105e81a8b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:47:03+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.032254s] [吞吐率：31.00req/s] [内存消耗：1,654.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '2a27abaa-a232-4fd2-80f6-50f1f4bb2795',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:49:44+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.037976s] [吞吐率：26.33req/s] [内存消耗：1,776.90kb] [文件加载：43]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'ef8d3a6d-d85e-42cf-a589-79c3be07be40',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function app\api\controller\int()[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php:24]
+---------------------------------------------------------------
+[ 2019-10-17T20:50:13+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.030468s] [吞吐率：32.82req/s] [内存消耗：1,654.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '17a26391-10c1-4cc6-9ef6-b43302bda05b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T20:51:16+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.027854s] [吞吐率：35.90req/s] [内存消耗：1,782.25kb] [文件加载：44]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '6f8e92f7-f3d2-42f9-aed1-a3c2de27d16e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: user_name_type[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php:27]
+---------------------------------------------------------------
+[ 2019-10-17T20:52:01+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.060791s] [吞吐率：16.45req/s] [内存消耗：2,585.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'd7252b58-43b2-43a6-b3db-2767a1c7481f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002240s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007133s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000388s ]
+[ error ] [0]不支持的数据表达式:/user/register/[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\db\builder\Mysql.php:113]
+---------------------------------------------------------------
+[ 2019-10-17T20:52:50+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.040617s] [吞吐率：24.62req/s] [内存消耗：2,585.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'e60c0e65-54ae-4605-9307-0d960d690720',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001189s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000322s ]
+[ error ] [0]不支持的数据表达式:/user/register/[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\db\builder\Mysql.php:113]
+---------------------------------------------------------------
+[ 2019-10-17T20:54:20+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.040320s] [吞吐率：24.80req/s] [内存消耗：2,585.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'de47aed3-d0ce-4e3c-8b67-750f68f3e938',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000349s ]
+[ error ] [0]不支持的数据表达式:/user/register/[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\db\builder\Mysql.php:113]
+---------------------------------------------------------------
+[ 2019-10-17T20:56:10+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.049366s] [吞吐率：20.26req/s] [内存消耗：2,585.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'c546c05b-cc14-4ea4-9350-0d20715f22a3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001384s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000398s ]
+[ error ] [0]不支持的数据表达式:/user/register/[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\db\builder\Mysql.php:113]
+---------------------------------------------------------------
+[ 2019-10-17T20:59:48+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.097192s] [吞吐率：10.29req/s] [内存消耗：2,562.66kb] [文件加载：52]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '14e3c466-d664-4050-92f4-a25322d70a90',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001483s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000508s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'user_pwd' doesn't have a default value[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-17T21:00:23+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.045515s] [吞吐率：21.97req/s] [内存消耗：2,489.44kb] [文件加载：46]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=oafp06pri9hcqkq235f14q07sm',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'bc148245-8827-4ca3-a0fc-2eaf15a588c7',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001281s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`user_email` , `user_name` , `user_pwd` , `user_rtime`) VALUES ('2624213719@qq.com' , '2019223040006' , 'e10adc3949ba59abbe56e057f20f883e' , 1571317223) [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:00:02+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.371530s] [吞吐率：2.69req/s] [内存消耗：1,627.44kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'e66ffa1e-feca-43d0-b13f-db47bc89c6a3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:00:20+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.037954s] [吞吐率：26.35req/s] [内存消耗：1,627.97kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'a95fd0df-dd25-44fc-bd5e-aaf8daf90c6d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:02:33+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=902416&user_name=2019223040006
+[运行时间：0.028245s] [吞吐率：35.40req/s] [内存消耗：1,627.47kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'e1412fc0-a633-443b-a7ab-6ad5275e6da5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '902416',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:02:40+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/0
+[运行时间：0.123512s] [吞吐率：8.10req/s] [内存消耗：2,484.53kb] [文件加载：45]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '7c38b71e-f570-474d-9d79-030a3195126c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/0' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_contact' => '2624213719@qq.com',
+  'is_exist' => '0',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012547s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.002501s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:03:12+08:00 ] 127.0.0.1 GET api.tp5.com/user/1/1/2624213719@qq.com/1
+[运行时间：0.771393s] [吞吐率：1.30req/s] [内存消耗：3,100.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '4a01f13c-d0be-47fe-b798-0ea5a16e9602',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/1/1/2624213719@qq_com/1' => '',
+  'time' => '1',
+  'token' => '1',
+  'user_contact' => '2624213719@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->getCode[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001074s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:03:50+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.043985s] [吞吐率：22.73req/s] [内存消耗：2,488.44kb] [文件加载：46]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'd18fa8a0-50f5-4a61-b5bd-bf15e310cea8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001168s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007047s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`user_email` , `user_name` , `user_pwd` , `user_rtime`) VALUES ('2624213719@qq.com' , '2019223040006' , 'e10adc3949ba59abbe56e057f20f883e' , 1571321030) [ RunTime:0.000843s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:04:28+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.202135s] [吞吐率：4.95req/s] [内存消耗：2,562.32kb] [文件加载：52]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '3acbb266-96ab-43bd-830c-f44dcb5040d5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001123s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000429s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'user_phone' doesn't have a default value[D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-17T22:05:09+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.041590s] [吞吐率：24.04req/s] [内存消耗：2,488.44kb] [文件加载：46]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'ec9b57f0-2280-46a1-a8cd-711a29d057bb',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001086s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`user_email` , `user_name` , `user_pwd` , `user_rtime`) VALUES ('2624213719@qq.com' , '2019223040006' , 'e10adc3949ba59abbe56e057f20f883e' , 1571321109) [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:05:35+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.027245s] [吞吐率：36.70req/s] [内存消耗：1,628.92kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '75b0818c-90f8-4ebc-b7e0-43a04aeace88',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:15:55+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.023057s] [吞吐率：43.37req/s] [内存消耗：1,631.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '0ad3c413-5e9f-4bc0-b588-4e69d72d1efa',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:16:09+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.026444s] [吞吐率：37.82req/s] [内存消耗：1,631.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '3e7036b0-afec-43e8-9072-57bf60cd976b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:16:31+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.049018s] [吞吐率：20.40req/s] [内存消耗：1,778.66kb] [文件加载：43]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '7e9ebf9a-46a3-4b31-8b9a-50e36b058ff0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类型错误: Too few arguments to function app\api\controller\Common::checkExist(), 2 passed in D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php on line 25 and exactly 3 expected[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\Common.php:127]
+---------------------------------------------------------------
+[ 2019-10-17T22:17:00+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.023737s] [吞吐率：42.13req/s] [内存消耗：1,350.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'eefff743-d5ea-4350-bc5b-72fa58934464',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ',', expecting ')'[D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php:25]
+---------------------------------------------------------------
+[ 2019-10-17T22:17:29+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.048583s] [吞吐率：20.58req/s] [内存消耗：2,517.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'd3810f58-8d3f-40ce-88bb-6196f19f1241',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001829s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_name` = '2019223040006' LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:17:49+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.058887s] [吞吐率：16.98req/s] [内存消耗：2,408.78kb] [文件加载：45]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '06e0b860-da4e-4519-85a4-5f3384a50d95',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001298s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_name` = '2019223040006' LIMIT 1 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:18:55+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.029895s] [吞吐率：33.45req/s] [内存消耗：1,631.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '62a7bd53-7c2b-48cd-b07a-e53f70a2bd38',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:19:17+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.053417s] [吞吐率：18.72req/s] [内存消耗：2,491.34kb] [文件加载：46]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '422d0488-0a26-4c34-b3bc-ca1f1984c110',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001518s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007902s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_name` = '2019223040006' LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`user_email` , `user_name` , `user_pwd` , `user_rtime`) VALUES ('2624213719@qq.com' , '2019223040006' , 'e10adc3949ba59abbe56e057f20f883e' , 1571321957) [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:20:14+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=201922304000
+[运行时间：0.042568s] [吞吐率：23.49req/s] [内存消耗：2,521.06kb] [文件加载：46]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '09538f00-94a1-47f9-807c-570b2727ff70',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '201922304000',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001052s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_name` = '201922304000' LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_phone` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_email` = '2624213719@qq.com' LIMIT 1 [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:20:43+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=201922304000
+[运行时间：0.031415s] [吞吐率：31.83req/s] [内存消耗：1,585.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '78ca77d3-a9c1-4c1a-bfe4-6d106aff383b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '201922304000',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:21:02+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.035673s] [吞吐率：28.03req/s] [内存消耗：2,518.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '91110700-edd2-47e0-85a0-d76a0d33599d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001093s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_name` = '2019223040006' LIMIT 1 [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:21:50+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.020197s] [吞吐率：49.51req/s] [内存消耗：1,631.56kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '2f91ebc4-bd91-4171-a3e9-2ac2bacc8fba',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:22:06+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.026085s] [吞吐率：38.34req/s] [内存消耗：1,631.56kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '41621fc4-e978-434b-b793-859389750e85',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:22:08+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.038116s] [吞吐率：26.24req/s] [内存消耗：1,631.56kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'a75a6a0c-3db5-4bf3-9130-e3f94f47b3c8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:22:20+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.024945s] [吞吐率：40.09req/s] [内存消耗：1,631.56kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '13fea817-4060-4b84-869e-cbe0d3bf1897',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:22:59+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.020498s] [吞吐率：48.79req/s] [内存消耗：1,631.56kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '4cea786d-0dea-45a5-a5d4-dfb35e7c94a0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:23:01+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.032328s] [吞吐率：30.93req/s] [内存消耗：1,631.56kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '82f76136-927a-4d1b-b7c1-48fddc09b4bc',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:23:09+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.049161s] [吞吐率：20.34req/s] [内存消耗：2,408.29kb] [文件加载：45]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'ff84f365-3d2c-4fb0-9cf0-c04cdaf041cc',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001468s ] mysql:host=127.0.0.1;dbname=think;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user_name` = '2019223040006' LIMIT 1 [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2019-10-17T22:23:20+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.028241s] [吞吐率：35.41req/s] [内存消耗：1,586.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '575672f1-3316-4c08-b3b8-875f222b60d2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:24:00+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719qq.co&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.024967s] [吞吐率：40.05req/s] [内存消耗：1,632.06kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'fef1fda7-f985-4fef-80a0-b2806f5fa8a4',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719qq.co',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T22:24:16+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.027881s] [吞吐率：35.87req/s] [内存消耗：1,632.06kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => 'de83f00d-0c22-4883-b125-bac629150413',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-17T23:12:56+08:00 ] 127.0.0.1 POST api.tp5.com/user/register/?user_contact=2624213719@qq.com&user_pwd=e10adc3949ba59abbe56e057f20f883e&code=151338&user_name=2019223040006
+[运行时间：0.030280s] [吞吐率：33.03req/s] [内存消耗：1,632.06kb] [文件加载：39]
+[ info ] [ LANG ] D:\A_Software_Web\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'register',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'cookie' => 'PHPSESSID=n94e80d96bukhcja48is8vs8j6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'api.tp5.com',
+  'postman-token' => '0a2cce52-0f49-4f18-af5f-94689ac83d9d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.18.0',
+)
+[ info ] [ PARAM ] array (
+  '/user/register/' => '',
+  'user_contact' => '2624213719@qq.com',
+  'user_pwd' => 'e10adc3949ba59abbe56e057f20f883e',
+  'code' => '151338',
+  'user_name' => '2019223040006',
+)
+[ info ] [ RUN ] app\api\controller\User->register[ D:\A_Software_Web\phpstudy\WWW\tp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
